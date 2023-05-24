@@ -77,7 +77,7 @@ size_t print_list(const list_t *b)
 		_puts(convert_number(b->num, 10, 0));
 		_putchar(':');
 		_putchar(' ');
-		_puts(h->str ? b->str : "(nil)");
+		_puts(b->str ? b->str : "(nil)");
 		_puts("\n");
 		b = b->next;
 		ui++;

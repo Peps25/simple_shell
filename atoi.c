@@ -50,7 +50,7 @@ int _isalpha(int d)
  */
 
 
-int _atoi(char *p)
+int _atoi(char *s)
 {
 	int ui, sign = 1, flag = 0, output;
 	unsigned int result = 0;
